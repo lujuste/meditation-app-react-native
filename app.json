@@ -6,6 +6,18 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Roboto-Bold.ttf",
+            "./assets/fonts/Roboto-Medium.ttf",
+            "./assets/fonts/Roboto-Regular.ttf"
+          ]
+        }
+      ]
+    ],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
